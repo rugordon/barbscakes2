@@ -16,7 +16,7 @@ const Contact = () => {
         e.preventDefault();
 
         // Placeholder email - USER PLEASE UPDATE THIS
-        const emailTo = 'barb@example.com';
+        const emailTo = 'barbsfreefromcakes@gmail.com';
         const subject = `New Inquiry from ${formData.name}`;
         const body = `Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`;
 
