@@ -3,7 +3,7 @@ import './Hero.css';
 
 const Hero = () => {
     return (
-        <section id="hero" className="hero">
+        <section id="hero" className="hero" style={{ backgroundImage: "url('cakes/WhiteChocolateCheesecake/WhiteChocolateCheesecake.png')" }}>
             <div className="hero-overlay"></div>
             <div className="container hero-content text-center fade-in">
                 <h1 className="hero-title">

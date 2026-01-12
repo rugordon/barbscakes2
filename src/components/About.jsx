@@ -7,7 +7,7 @@ const About = () => {
             <div className="container about-container">
                 <div className="about-image">
                     {/* User requested cartoon image of Barb */}
-                    <img src="/baking_with_love.png" alt="Barb baking with love" />
+                    <img src="baking_with_love.png" alt="Barb baking with love" />
                 </div>
                 <div className="about-text">
                     <h2 className="section-title">Welcome to Barb’s Free From Cakes</h2>

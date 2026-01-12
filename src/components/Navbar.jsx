@@ -20,7 +20,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
         <a href="#" className="logo-container">
-          <img src="/Logo.png" alt="Barb's Free From Cakes" className="logo-img" />
+          <img src="Logo.png" alt="Barb's Free From Cakes" className="logo-img" />
         </a>
         <ul className="nav-links">
           <li><a href="#hero">Home</a></li>
