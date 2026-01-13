@@ -1,36 +1,30 @@
 .max-w-600 {
     max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
-.contact-form {
-    background: var(--color-white);
-    padding: 2rem;
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-sm);
+.text-lg {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--color-text);
 }
 
-.form-group {
-    margin-bottom: 1.5rem;
+.email-link-container {
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
-.form-control {
-    width: 100%;
-    padding: 0.75rem 1rem;
-    border: 1px solid #ddd;
-    border-radius: var(--radius-md);
-    font-family: var(--font-body);
-    font-size: 1rem;
-    transition: var(--transition);
+.email-link {
+    color: var(--color-accent);
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+    display: inline-block;
+    margin-top: 0.5rem;
 }
 
-.form-control:focus {
-    outline: none;
-    border-color: var(--color-primary);
-    box-shadow: 0 0 0 3px rgba(212, 163, 115, 0.2);
-}
-
-textarea.form-control {
-    resize: vertical;
+.email-link:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
 }
